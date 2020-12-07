@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600;700&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+    </style> 
+    <script src="./java/java.js"></script>
+</head>
+<body>
+ 
+    <!------------- Nav -------------->
+
+    <header class="container margin-top">
+        <nav class="inside-nav bg-orange">
+            <a href="#"><i class="fab fa-2x fa-phoenix-squadron"></i></a>
+            <ul id="menu" class="hide-menu">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">LinkedIn</a></li>                     
+            </ul>
+            <a onclick="showMenu()" href="#">
+                <i class="fas fa-2x fa-align-justify"></i>
+            </a>            
+        </nav>   
+    </header>
+
+    <!------------- banner Photo ----------->
+
+    <div class="container margin-top row">
+        <div class="bg-img col-sm-12 col-md-6 col-lg-4">
+            <div class="picture margin-top"></div>
+        </div>
+        <div class="bg-banner col-sm-12 col-md-6 col-lg-7">
+            <h2 class="titles margin-top">I'm Alfonso Nieto</h2>
+            <p class="general-text margin-top">
+                I am a full stack web developer, I studied at Academlo and I have a lot of experience in corporate projects as well as small projects being freelance, I have an audio and production engineering degree, which I have been working for 11 years, in different positions.
+            </p>
+            <button class="general-button margin-top">
+                Download CV
+            </button>
+        </div>
+        <div class="bar-orange inside-nav row-colum col-sm-12 col-md-12 col-lg-1">
+                <a href="https://www.facebook.com/AlfonsoNietoG"><i class="fab fa-2x fa-facebook"></i></a>
+                <a href="https://www.instagram.com/alfonsoenkel"><i class="fab fa-2x fa-instagram-square"></i></a>
+                <a href="https://www.twitter.com/"><i class="fab fa-2x fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/alfonso-nieto-gonzalez-713397201/"><i class="fab fa-2x fa-staylinked"></i></a>        
+        </div>     
+    </div>
+    <!-------------- Experience ------------->
+    <section>
+        <div class="card-bg container">
+            <h2 class="titles title-h2">Experience</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card-one">
+                        <h3 class="titles">Job 1</h3>
+                         <p>
+                            My first job was as manager of the audiovisual production area, I was in charge of more than 10 people in my team supervising different areas such as web development, graphic design, audio and video among others.
+                         </p>   
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card-two">
+                        <h3 class="titles">Job 2</h3>
+                        <p>
+                            I am currently an audio operator at Free and Green S.A. de C.V. I'm in charge of sounding the bands that appear in the place as well the management of the lights operation,also give corrective maintenance to the equipment.
+                        </p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!----------------- Skills ------------------>
+    <section>
+        <div class="stats-bg container">
+            <h2 class="titles title-h2">Skills</h2>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-1 stat-icons">
+                    <i class="fab fa-html5" ></i>
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-11">
+                    <div class="stat-html">
+                        <p class="stat-text">
+                            40%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-1 stat-icons">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-11">
+                    <div class="stat-css">
+                        <p class="stat-text">
+                            50%                           
+                        </p>
+                    </div>
+                </div>              
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-1 stat-icons">
+                    <i class="fab fa-2x fa-js-square"></i>
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-11">
+                    <div class="stat-java">
+                        <p class="stat-text">
+                            25%
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-1 stat-icons">
+                    <i class="fab fa-python"></i>
+                </div>
+                <div class="col-sm-10 col-md-10 col-lg-11">
+                    <div class="stat-python">
+                        <p class="stat-text">
+                            42%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------ Footer ------------------>
+    <footer class="container text-footer">
+        <p>
+            All rights reserved 2020 
+        </p>
+    </footer>   
+</body>
+</html>

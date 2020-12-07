@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(49, 49, 49);
+    background-image: url('../img/general-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.margin-top {
+    margin-top: 25px;
+}
+
+/* =============== Nav =========00 */
+
+.bg-orange {
+    background-color: rgb(231, 112, 0);
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inside-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside-nav ul.hide-menu {
+    display: none;
+    transition: hide 1.5s;
+}
+
+#menu {
+    top: 60px;
+    background-color: rgb(218, 98, 0);
+    position: fixed;
+    height: 200px;
+    width: 120px;
+    right: 0;
+}
+
+
+/*========== Banner Photo =============*/
+
+
+.bg-img {
+    background-image: url('../img/photo-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.picture {
+    background-color: rgba(156, 156, 156, 0.404);
+    width: 200px;
+    height: 300px;
+    background-image: url('../img/img-profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    border:solid 2px rgb(68, 68, 68);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.bg-banner {
+    color: whitesmoke;
+    background-color: rgb(32, 32, 32);
+    padding: 30px;
+}
+
+
+/* ================ general class section ============*/
+
+.bar-orange {
+    background-color: rgb(231, 112, 0);
+    font-family: 'Kanit', sans-serif;
+    color: #000;
+}
+
+.titles {
+    font-family: 'Gugi', cursive;
+}
+
+.title-h2 {
+    margin-left: 20px;
+}
+
+.general-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.general-button {
+    background-color: rgb(224, 108, 0);
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    border: 0;
+    border-radius: 6px;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    list-style-position: inside;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ========= Card ============*/
+
+
+.card-bg{
+    padding: 17px;
+    background-color: rgb(161, 161, 161);
+    box-shadow: 0 .125rem .25rem rgb(0,0,0,.075);
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.card-one {
+    background-color: aliceblue;
+    box-shadow: 0 .125rem .25rem rgb(0,0,0,.075);
+    padding: 30px;
+}
+
+.card-two {
+    color: white;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0 .125rem .25rem rgb(0,0,0,.075);
+    padding: 30px;
+}
+
+
+/* ============== Stats ============ */
+
+
+.stats-bg {
+    padding: 17px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+
+
+.stat-icons i{
+    background: rgb(230, 111, 0);
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+}
+
+.stat-html {
+    margin-top: 5px;
+    background-color: aliceblue;
+    max-width: 40%;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.stat-css {
+    margin-top: 5px;
+    background-color: aliceblue;
+    max-width: 50%;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+.stat-java {
+    margin-top: 5px;
+    background-color: aliceblue;
+    max-width: 25%;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.stat-python {
+    margin-top: 5px;
+    background-color: aliceblue;
+    max-width: 42%;
+    height: 40px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.stat-text {
+    margin-top: 1px;
+    padding: 10px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+
